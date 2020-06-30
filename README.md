@@ -43,6 +43,16 @@ var_dump(json_encode($aip->use('your app')->image_censor->antiSpam('测试')));
 ```
 > sdk支持多应用，使用 use 切换当前应用配置。
 
+
+## laravel
+
+### 发布
+
+```
+php artisan vendor:publish --tag=baidu_aip
+```
+
+
 ## API
 * `$aip->image_censor` 图像审核服务，对应百度AI开放平台中视觉技术的 [图像审核](http://ai.baidu.com/docs#/ImageCensoring-PHP-SDK/top) API
 * `$aip->image_classify` 图像识别服务，对应百度AI开放平台中视觉技术的 [图像识别](http://ai.baidu.com/docs#/ImageClassify-PHP-SDK/top) API
