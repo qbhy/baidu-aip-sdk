@@ -31,7 +31,7 @@ class Face extends Api
     /**
      * 人脸搜索M:N识别 multi-search api url
      */
-    const searchUrl = 'https://aip.baidubce.com/rest/2.0/face/v3/multi-search';
+    const multiSearchUrl = 'https://aip.baidubce.com/rest/2.0/face/v3/multi-search';
     
     /**
      * 人脸注册 user_add api url
